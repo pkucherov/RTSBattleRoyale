@@ -41,7 +41,7 @@ ARTSBR_Character::ARTSBR_Character() :
 	{
 		selectionDecalComp_->SetDecalMaterial(decalMaterial.Object);
 
-		selectionDecalComp_->RelativeLocation = FVector(0.f, 0.f, -80.f);
+		selectionDecalComp_->SetRelativeLocation(FVector(0.f, 0.f, -80.f));
 		selectionDecalComp_->DecalSize = FVector(32.f, 64.f, 64.f);
 		selectionDecalComp_->SetRelativeRotation(FRotator(90.0f, 0.0f, 0.0f).Quaternion());
 		selectionDecalComp_->SetVisibility(false);

@@ -14,7 +14,7 @@
 ARTSBR_PlayerController::ARTSBR_PlayerController() : isSelectionActive_(false)
 {
 	PrimaryActorTick.bCanEverTick = true;
-	bHidden = false;
+	SetHidden(false);
 	bShowMouseCursor = true;
 
 	PlayerCameraManagerClass = ARTSBR_PlayerCameraManager::StaticClass();
